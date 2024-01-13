@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification with Geolocation and Video Access</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="title">click the button below to see your location</h1>
+    <main>
+      <div class="square"></div>
+      <video class="video" id="video" width="400" height="300" autoplay></video>
+      <button onclick="requestVideoAccess()">Request Video Access</button>
+      <button onclick="showNotification()">Show Notification</button>
+    </main>
+  </body>
+</html>
