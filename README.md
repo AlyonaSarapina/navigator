@@ -1,1 +1,1 @@
-(DEMO LINK)[https://alyonasarapina.github.io/navigator/]
+[DEMO LINK](https://alyonasarapina.github.io/navigator/)
